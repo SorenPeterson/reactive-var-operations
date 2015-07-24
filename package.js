@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
 	api.use('tinytest');
 	api.use('reactive-var');
-	api.use('reactive-var-operations');
+	api.use('sorenpeterson:reactive-var-operations');
 	api.addFiles('reactive-var-operations-tests.js');
 });
