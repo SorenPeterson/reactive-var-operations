@@ -9,7 +9,7 @@ Tinytest.addAsync('Add to ReactiveVar', function(test, next) {
 			next();
 		}
 	});
-	someNumber.add(6);
+	someNumber.add(5);
 	test.equal(someNumber.get(), 6, 'Expected value to be 6');
 });
  
