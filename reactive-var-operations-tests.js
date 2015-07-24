@@ -23,7 +23,7 @@ Tinytest.addAsync('subtract async', function(test, next) {
 		}
 	});
 	someNumber.subtract(5);
-	test.equal(someNumber.get(), -5, 'Expected value to be -5');
+	test.equal(someNumber.get(), -4, 'Expected value to be -4');
 });
 
 Tinytest.addAsync('multiply async', function(test, next) {
