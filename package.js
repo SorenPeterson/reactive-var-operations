@@ -12,11 +12,13 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
+  api.use('reactive-var');
   api.addFiles('reactive-var-operations.js');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
+  api.use('reactive-var');
   api.use('reactive-var-operations');
   api.addFiles('reactive-var-operations-tests.js');
 });
